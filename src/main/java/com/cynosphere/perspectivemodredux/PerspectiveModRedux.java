@@ -21,7 +21,12 @@ public class PerspectiveModRedux implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         perspectiveKey = KeyBindingHelper.registerKeyBinding(
-            new KeyMapping("key.perspectivemodredux.toggle", GLFW.GLFW_KEY_F4, "key.categories.misc")
+            new KeyMapping(
+                "key.perspectivemodredux.toggle",
+                InputConstants.Type.KEYSYM,
+                GLFW.GLFW_KEY_F4,
+                "key.categories.misc"
+            )
         );
         ClientTickEvents.END_CLIENT_TICK.register(this::onClientTick);
     }
