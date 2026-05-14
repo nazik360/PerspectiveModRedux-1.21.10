@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "com/cynosphere/perspectivemodredux/mixin/EntityRenderDispatcherMixin": {
+      "prepare": "Lnet/minecraft/class_898;method_3941(Lnet/minecraft/class_4184;Lnet/minecraft/class_1297;)V"
+    },
+    "com/cynosphere/perspectivemodredux/mixin/GameRendererMixin": {
+      "Lnet/minecraft/client/Camera;setup(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V",
+      "renderLevel": "Lnet/minecraft/class_757;method_3188(Lnet/minecraft/class_9779;)V"
+    },
+    "com/cynosphere/perspectivemodredux/mixin/MouseMixin": {
+      "turnPlayer": "Lnet/minecraft/class_312;method_1606(D)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/cynosphere/perspectivemodredux/mixin/EntityRenderDispatcherMixin": {
+        "prepare": "Lnet/minecraft/class_898;method_3941(Lnet/minecraft/class_4184;Lnet/minecraft/class_1297;)V"
+      },
+      "com/cynosphere/perspectivemodredux/mixin/GameRendererMixin": {
+        "Lnet/minecraft/client/Camera;setup(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;ZZF)V": "Lnet/minecraft/class_4184;method_19321(Lnet/minecraft/class_1922;Lnet/minecraft/class_1297;ZZF)V",
+        "renderLevel": "Lnet/minecraft/class_757;method_3188(Lnet/minecraft/class_9779;)V"
+      },
+      "com/cynosphere/perspectivemodredux/mixin/MouseMixin": {
+        "turnPlayer": "Lnet/minecraft/class_312;method_1606(D)V"
+      }
+    }
+  }
+}

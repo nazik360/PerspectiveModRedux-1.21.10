@@ -1,0 +1,6 @@
+v1	named	intermediary
+FIELD	com/cynosphere/perspectivemodredux/mixin/MouseMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_1779
+FIELD	com/cynosphere/perspectivemodredux/mixin/MouseMixin	D	accumulatedDX	field_1789
+FIELD	com/cynosphere/perspectivemodredux/mixin/MouseMixin	D	accumulatedDY	field_1787
+FIELD	com/cynosphere/perspectivemodredux/mixin/GameRendererMixin	Lnet/minecraft/client/Minecraft;	minecraft	field_4015
+METHOD	com/cynosphere/perspectivemodredux/mixin/CameraAccessor	(FF)V	setRotation	method_19325

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "perspectivemodredux",
+  "version": "${version}",
+  "name": "Perspective Mod Redux",
+  "description": "360 Degree Perspective mod for Minecraft 1.21.10 Fabric",
+  "authors": ["Cynosphere", "BackportProjectMC"],
+  "contact": {
+    "sources": "https://github.com/BackportProjectMC/PerspectiveModRedux"
+  },
+  "license": "Unlicense",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.cynosphere.perspectivemodredux.PerspectiveModRedux"
+    ]
+  },
+  "mixins": [
+    "perspectivemodredux.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.10",
+    "java": ">=21"
+  }
+}

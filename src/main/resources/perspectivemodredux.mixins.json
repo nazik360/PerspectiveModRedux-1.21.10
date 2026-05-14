@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.cynosphere.perspectivemodredux.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "CameraAccessor",
+    "MouseMixin",
+    "GameRendererMixin",
+    "EntityRenderDispatcherMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
