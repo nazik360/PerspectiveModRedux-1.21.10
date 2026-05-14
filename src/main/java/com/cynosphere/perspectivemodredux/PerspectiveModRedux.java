@@ -21,7 +21,7 @@ public class PerspectiveModRedux implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         KeyMapping.Category category = KeyBindingHelper.registerKeyCategory(
-            "key.categories.perspectivemodredux", 100
+            "key.categories.perspectivemodredux"
         );
         perspectiveKey = KeyBindingHelper.registerKeyBinding(
             new KeyMapping(
