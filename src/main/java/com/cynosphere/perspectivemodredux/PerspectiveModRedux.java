@@ -25,7 +25,7 @@ public class PerspectiveModRedux implements ClientModInitializer {
             "key.perspectivemodredux.toggle",
             InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_F4,
-            KeyMapping.CATEGORY_MISC
+            "key.categories.misc"
         ));
         ClientTickEvents.END_CLIENT_TICK.register(this::onClientTick);
     }
